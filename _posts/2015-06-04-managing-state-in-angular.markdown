@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Managing State In AngularJS"
+title:  "Managing State In Angular"
 date:   2015-06-04 21:10:00
 categories: angularjs
 ---
