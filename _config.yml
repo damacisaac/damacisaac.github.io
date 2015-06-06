@@ -9,3 +9,13 @@ github_username:  damacisaac
 
 # Build settings
 markdown: kramdown
+
+comments:
+    provider: disqus
+    disqus:
+        short_name: mtldev
+
+analytics:
+  provider: google
+  google:
+      tracking_id : 'UA-63556868-1'
