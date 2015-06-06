@@ -165,4 +165,4 @@ Another problem with `angular.extend` is that it doesn't *remove* data from an o
 })();
 {% endhighlight %}
 
-This is the final solution. Here, instead of binding the value of `currentUser` directly to `$scope`, we instead bind a getter. Now, if we need the value of `currentUser` in our controller or in a template, we can just call `$scope.getCurrentUser()`. Again, we have very minimal code in our controller, and we also don't have to worry about losing the reference when `Session.currentUser` is updated!
+This is the preferred solution. Here, instead of binding the value of `currentUser` directly to `$scope`, we instead bind a getter. Now, if we need the value of `currentUser` in our controller or in a template, we can just call `$scope.getCurrentUser()`. Again, we have very minimal code in our controller, and we also don't have to worry about losing the reference when `Session.currentUser` is updated!
