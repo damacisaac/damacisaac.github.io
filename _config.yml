@@ -1,7 +1,7 @@
 # Site settings
 title: mtl dev
 email: donaldamacisaac@gmail.com
-description: Tips for building beautiful web applications.
+description: Tips for building beautiful applications.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://damacisaac.github.io" # the base hostname & protocol for your site
 # twitter_username: dmacis

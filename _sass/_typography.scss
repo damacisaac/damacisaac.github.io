@@ -1,0 +1,15 @@
+$opacity-primary: 0.87;
+$opacity-secondary: 0.54;
+$opacity-tertiary: 0.26;
+
+.text-center {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, label {
+  opacity: $opacity-primary;
+}
+
+small {
+  opacity: $opacity-secondary;
+}
